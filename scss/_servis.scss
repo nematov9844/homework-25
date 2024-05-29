@@ -1,0 +1,74 @@
+
+
+.servis{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .servis-all{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        .servis-box{
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            gap: 10px;
+            .servis-box-left{
+                display: flex;
+                width: 40%;
+                height: 100%;
+                align-items: center;
+                justify-content: center;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .servis-box-right{
+                width: 60%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                // align-items: center;
+                justify-content: center;
+                .servis-box-title{
+                    display: flex;
+                    width: 100%;
+                    text-align: center;
+                }
+                .servis-box-desc{
+                    width: 80%;
+                    display: flex;
+                    flex-direction: column;
+
+                }
+                .servis-box-li{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                   div{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    span{
+                        width: 10px;
+                        height: 10px;
+                        background-color: rgba(0, 186, 252, 1);
+                        border-radius: 50%;
+                    }
+                   }
+                   
+                    
+                   
+                }
+                .servis-box-footer{
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    color:rgba(0, 186, 252, 1) ;
+                }
+            }
+        }
+    }
+}
